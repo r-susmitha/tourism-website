@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="header">
+        <h1>ABS Tourism</h1>
+        <div class="home">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destination">Destination</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#blog">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><input type="search" class="search" placeholder="search"/></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container" id="home">
+        <img src="Assets/images/Screenshot 2024-06-27 at 10 .    51 .   46 AM.png" alt="Main Image">
+        <div class="content">
+            <h3>From $900.00</h3>
+            <h4>To 5 Days tour</h4>
+            <h2>Welcome</h2>
+            <h1>to ABS Tourism</h1>
+            <p>Feel the Complete Trip with lots of Happiness on the Customer's Face</p>
+            <button id="read-more-btn" class="read-more-btn">Read More <span class="arrow">→</span></button>
+            <div id="more-text" style="display: none;">
+                <p>More details about the tour...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="destination" id="destination">
+        <h2>Destination</h2>
+        <div class="destination-item">
+            <h3>London</h3>
+            <img src="Assets/images/london.jpg" alt="London">
+        </div>
+        <div class="destination-item">
+            <h3>Rome</h3>
+            <img src="Assets/images/rome.jpg" alt="Rome">
+        </div>
+        <div class="destination-item">
+            <h3>Amsterdam</h3>
+            <img src="Assets/images/amsterdam.jpg" alt="Amsterdam">
+        </div>
+        <div class="destination-item">
+            <h3>Paris</h3>
+            <img src="Assets/images/paris.jpg" alt="Paris">
+        </div>
+        <div class="destination-item">
+            <h3>Maldives</h3>
+            <img src="Assets/images/maldives.jpg" alt="Maldives">
+        </div>
+        <div class="destination-item">
+            <h3>Barcelona</h3>
+            <img src="Assets/images/barcelona.jpg" alt="barcelona">
+        </div>
+        <div class="destination-item">
+            <h3>Cluj-napoca</h3>
+            <img src="Assets/images/cluj-napoca.jpg" alt="cluj-napoca">
+        </div>
+    </div>
+
+    <div class="tours" id="tours">
+        <h2>Tours</h2>
+        <div class="tour-item">
+            <h3>European Tour</h3>
+            <p>Explore the beauty of Europe with our guided tours.</p>
+        </div>
+        <div class="tour-item">
+            <h3>Asian Adventure</h3>
+            <p>Experience the rich culture and history of Asia.</p>
+        </div>
+        <div class="tour-item">
+            <h3>American Road Trip</h3>
+            <p>Hit the road and discover the wonders of America.</p>
+        </div>
+    </div>
+
+    <div class="blogs" id="blog">
+        <h2>Blogs</h2>
+        <div class="blog-item">
+            <h3>Top 10 Travel Destinations</h3>
+            <p>Discover the top travel destinations for 2024.</p>
+        </div>
+        <div class="blog-item">
+            <h3>Travel Tips for First-Time Travelers</h3>
+            <p>Get tips and advice for your first travel adventure.</p>
+        </div>
+        <div class="blog-item">
+            <h3>How to Travel on a Budget</h3>
+            <p>Learn how to make the most of your travel budget.</p>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
